@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #f8f1f1, #e0c3fc); /* Elegant pastel gradient */
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header */
+h1 {
+    font-size: 3em;
+    color: #6a1b9a;
+    text-shadow: 4px 4px 6px rgba(255, 111, 97, 0.8);
+    animation: bounce 1.5s infinite;
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(145deg, #ff64b0, #ff56d3);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 1.4em;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Story Sections */
+section {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 650px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Text Displays */
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #303f9f;
+    background: #f9f9f9;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 12px auto;
+    width: fit-content;
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Final Story Display */
+#story {
+    background: #f7c8d4;
+    color: #3e2723;
+    font-size: 1.8em;
+    padding: 18px;
+    border-radius: 18px;
+    font-weight: bold;
+    border: 4px solid #f8f1f1;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile-friendly */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.4em;
+    }
+
+    button {
+        font-size: 1.2em;
+        padding: 12px 18px;
+    }
+}
